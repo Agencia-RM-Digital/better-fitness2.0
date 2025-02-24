@@ -1188,7 +1188,7 @@ figcaption {
 }
 
 .home-services_grid-item-link {
-  background-image: linear-gradient(#0000, #000), url('../images/academia-com-logo-adobe.jpeg');
+  background-image: linear-gradient(#0000, #000), url('../images/academia2.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   border-radius: 1rem;
@@ -1202,9 +1202,9 @@ figcaption {
 }
 
 .home-services_grid-item-link.is-second {
-  background-image: linear-gradient(#0000, #000), url('../images/');
-  background-position: 0 0, 50%;
-  background-size: auto, cover;
+  background-image: url('../images/AdobeStock_618060694_11zon.webp'), linear-gradient(#0000, #000);
+  background-position: 0 0, 0 0;
+  background-size: cover, auto;
 }
 
 .home-services_grid-item-link.is-third {
@@ -1838,6 +1838,10 @@ figcaption {
     place-items: start stretch;
   }
 
+  .home-services_grid-item-link.is-second {
+    background-image: url('../images/AdobeStock_618060694_11zon.webp'), linear-gradient(#0000, #000);
+  }
+
   .home-feature_grid {
     align-items: center;
   }
@@ -2087,6 +2091,11 @@ figcaption {
     display: flex;
   }
 
+  .home-services_grid-item-link.is-second {
+    background-image: linear-gradient(#0000, #000), url('../images/AdobeStock_618060694_11zon.webp');
+    background-size: auto, cover;
+  }
+
   .home-feature_grid {
     grid-template-columns: 1fr;
   }
@@ -2252,12 +2261,14 @@ figcaption {
   }
 
   .home-services_grid-item-link {
-    background-image: linear-gradient(#0000, #000), url('../images/AdobeStock_219953185.webp');
+    background-image: linear-gradient(#0000, #000), url('../images/academia2.webp');
     background-position: 0 0, 50%;
     background-size: auto, cover;
   }
 
   .home-services_grid-item-link.is-second {
+    background-image: linear-gradient(#0000, #000), url('../images/AdobeStock_618060694_11zon.webp');
+    background-size: auto, cover;
     flex-flow: column;
   }
 
